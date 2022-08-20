@@ -1,0 +1,45 @@
+\documentclass{article}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{xcolor}
+\usepackage{amsthm}
+\usepackage{mdframed}
+
+\newenvironment{tightcenter}{%
+    \setlength\topsep{0pt}
+    \setlength\parskip{0pt}
+    \begin{center}
+}{%  
+    \end{center}
+}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\K}{\mathbb{K}}
+\newcommand{\PP}{\mathbb{P}}
+\newcommand{\E}{\mathcal{E}}
+\newcommand{\e}{\vspace{3mm}}
+\title{Práctica 1 - Experimentos aleatorios. Espacio muestral; eventos}
+\author{Santiago}
+\date{}
+\begin{document}
+    \maketitle
+    \global\mdfdefinestyle{s}{%
+            linecolor=orange,linewidth=0.5pt,%
+            leftmargin=0cm,rightmargin=1cm
+        }
+    \begin{enumerate}
+        \input{Ejs/e1.tex}
+        \input{Ejs/e2.tex}
+        %\input{Ejs/e3.tex}
+        %\input{Ejs/e4.tex}
+        %\input{Ejs/e5.tex}
+        %\input{Ejs/e6.tex}
+        %\input{Ejs/e7.tex}
+        %\input{Ejs/e8.tex}
+        %\input{Ejs/e9.tex}
+    \end{enumerate}
+\end{document}

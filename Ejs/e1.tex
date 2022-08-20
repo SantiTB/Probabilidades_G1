@@ -1,0 +1,70 @@
+\item Asociar un espacio muestral a cada uno de los siguientes experimentos aleatorios.
+    \begin{enumerate}
+        \item Lanzar tres veces al aire una moneda y observar el lado que cae hacia arriba.
+            \begin{mdframed}[style=s]
+                El espacio muestral es el conjunto de resultados posibles de un experimento. En este caso particular, al tirar una moneda la misma puede caer con cara o cruz hacia arriba. Podemos denotar los siguientes eventos:
+                \begin{center}
+                    A: Sale cara\\
+                    B: Sale cruz
+                \end{center}
+                Entonces tenemos que:\[\Omega=\{AAA,AAB,ABA,ABB,BAA,BBA,BAB,BBB\}\]
+            \end{mdframed}
+        \item Lanzar tres veces al aire una moneda y observar el número total de caras.
+            \begin{mdframed}[style=s]
+                Puede suceder que en los tres tiros no salga cara, también puede caer una vez, dos veces, e incluso tres. Por lo tanto:\[\Omega=\{0,1,2,3\}\]
+            \end{mdframed}
+        \item Una urna contiene 2 bolillas blancas y una negra. Se sacan 2 bolillas al azar simultáneamente y se anotan los colores.
+            \begin{mdframed}[style=s]
+                Como estoy anotando los colores, no se distingue entre las dos bolillas blancas. Considerando los eventos
+                \begin{center}
+                    N: negra\\
+                    B: blanca
+                \end{center}
+                se tiene que\[\Omega=\{BB,BN\}\]
+            \end{mdframed}
+        \item Idem que en el inciso anterior pero con reemplazo.
+            \begin{mdframed}[style=s]
+                En este caso, al poder reemplazar, está la posibilidad de sacar dos veces la negra.\[\Omega=\{BB,BN,NN\}\]
+                Hay que dintinguir entre sacar blanco-negro y negro-blanco?
+            \end{mdframed}
+        \item Se colocan al azar tres bolillas diferentes en tres urnas diferentes, pudiéndose poner más de una bolilla por urna.\vspace{3mm}\\
+            Si representamos cada resultado como \[(U_{B_1},U_{B_2},U_{B_3})\]
+            siendo $U_{B_i}$ la urna en donde se encuentra la bolilla $i$. Entonces
+            \begin{center}
+                $\Omega=\{(1,1,1),(1,1,2),(1,1,3),(1,2,1),(1,2,2),(1,2,3),(1,3,1),(1,3,2),(1,3,3),$\\
+                $(2,1,1),(2,1,2),(2,1,3),(2,2,1),(2,2,2),(2,2,3),(2,3,1),(2,3,2),(2,3,3),$\\
+                $(3,1,1),(3,1,2),(3,1,3),(3,2,1),(3,2,2),(3,2,3),(3,3,1),(3,3,2),(3,3,3)\}$
+            \end{center}
+            Como hay un número considerable de resultados, quizás es más conveniente expresar el espacio muestral por comprensión:
+            \[\Omega=\{(i,j,k):i,j,k=1,2,3\}\]
+        \item Se arroja una moneda; si sale cara se arroja un dado, si sale ceca se lanzan dos dados.\vspace{3mm}\\
+            Si denominamos los siguientes eventos:
+            \begin{center}
+                A: cara\\
+                B: ceca
+            \end{center}
+            \[\Omega=\{(A,i):i\in\mathbb{N}/i<7\}\cup\{(B,i,j):i,j=1,2,3,4,5,6\}\]
+        \item Un viajante debe visitar cinco ciudades y traza su itinerario.\vspace{3mm}\\
+            Supongamos que las ciudades las enumeramos del 1 al 5.\[\Omega=\{i_1,i_2,i_3,i_4,i_5:i_k\in[1;5],i_m\neq i_n\forall m\neq n\}\]
+        \item Los artículos provenientes de una línea de producción se clasifican en defectuosos (D) y no defectuosos (N). Se observan artículos y se anota su condición. Este proceso se continúa hasta que se produzcan dos artículos defectuosos consecutivos o hasta que se hayan verificado cuatro artículos cualesquiera.
+            \[\Omega=\{DD,NDD,NNDD,DNDD,DNDN,DNND,DNNN,NNNN,NDND,NDNN,NNDN,NNND\}\]
+        \item Una caja con 12 lámparas tiene 4 unidades con filamentos rotos. Se las prueba hasta que se encuentre una
+        quemada.\vspace{3mm}\\
+            Definimos los eventos:
+            \begin{center}
+                Q: quemada\\
+                N: no quemada
+            \end{center}
+            Entonces,
+            \[\Omega=\{N^iQ:0\leq i\leq8\}\]
+        \item Un tanque de agua tiene una bomba cuyo motor se pone en funcionamiento automáticamente cuando el consumo
+        hace que el volumen de agua baje hasta cierto nivel. Supongamos que esto puede ocurrir a lo sumo una vez al
+        día. Cierto día se observa el motor durante 24 horas y se registra en qué instante ha comenzado a funcionar o
+        si no lo ha hecho en todo el día.\vspace{3mm}
+            \begin{center}
+                X: se prendió la bomba en el momento X\\
+                N: no se prendió la bomba
+            \end{center}
+            Por lo tanto,
+            \[\Omega=\{X,N\}\]
+    \end{enumerate}

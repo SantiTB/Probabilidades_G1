@@ -1,0 +1,38 @@
+\item Se examinan tres fusibles en secuencia, y se observa en cada caso si están o no defectuosos.
+    \begin{enumerate}
+        \item Describir el espacio muestral del experimento. ¿Cuántos elementos tiene?\vspace{3mm}\\
+            Sean los eventos:
+            \begin{center}
+                D: defectuoso\\
+                N: no defectuoso
+            \end{center}
+            Entonces se tiene que
+            \[\Omega=\{DDD,DDN,DND,DNN,NDD,NDN,NND,NNN\}\]
+            y se observa que
+            \[\#\Omega=8\]
+        \item Expresar por extensión los siguientes eventos:
+            \begin{enumerate}
+                \item $C:$ exactamente un fusible está defectuoso.
+                    \[C=\{DNN,NDN,NND\}\]
+                \item $D:$ a lo sumo un fusible está defectuoso.
+                    \[D=C\cup\{NNN\}\]
+                \item $E:$ los tres fusibles están en las mismas condiciones.
+                    \[E=\{DDD,NNN\}\]
+                \item ¿Cuáles de los sucesos $C,D$ o $E$ son mutuamente excluyentes?.\e\\
+                    Se tiene que\[C\cap D=C\qquad C\cap E=\varnothing\qquad D\cap E=\{NNN\}\]
+                    Por lo tanto, $C$ y $E$ son mutuamente excluyentes.\e
+                \item Sean los eventos $A_i:$ el fusible $i-$ésimo está defectuoso $i=1,2,3$. Expresar los eventos anteriores en función de $A_1,A_2,A_3$.
+                    \begin{center}
+                        $C=\{A_1,A_2,A_3\}$\\
+                        $D=C\cup\{A_1^cA_2^cA_3^c\}$\\
+                        $E=\{A_1A_2A_3,A_1^cA_2^cA_3^c\}$
+                    \end{center}\e
+                \item Sean los eventos $B_i:$ hay exactamente $i$ fusibles defectuosos con $i=0,1,2,3$. ¿Cuántos elementos tiene cada $B_u$?
+                    \begin{center}
+                        $B_0=\{NNN\}\to \#B_0=1$\\
+                        $B_1=\{NND,NDN,DNN\}\to\#B_1=3$\\
+                        $B_2=\{NDD,DDN,DND\}\to\#B_2=3$\\
+                        $B_3=\{DDD\}\to\#B_3=1$
+                    \end{center}
+            \end{enumerate}
+    \end{enumerate}

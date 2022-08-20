@@ -1,0 +1,13 @@
+\item Una caja tiene 10 bolas numeradas del 1 al 10. Una bola se elige al azar y una segunda bola se elige de las 9 restantes. Encontrar la probabilidad de que los números de las 2 bolas difieran en 2 o más.\e\\
+    La primera bola puede ser cualquiera de las 10 en la caja mientras que la segunda es una entre nueve, por ende, hay \[10\cdot9=90\text{ casos totales}\]
+    Para determinar los casos favorables, se puede pensar de la siguiente forma: Si saco 1 o 10, tengo 8 bolas que cumplen lo pedido
+    \begin{center}
+        $B_1=1\to B_2=i,\quad i=3,4,5,6,7,8,9,10$\\
+        $B_1=10\to B_2=j,\quad j=1,2,3,4,5,6,7,8$ 
+    \end{center}
+    Mientras que con los otros números sólo tengo 7 opciones favorables ya que su anterior y siguiente no son válidos. Ej:\[B_1=5\to B_2=k,\quad k=1,2,3,7,8,9,10\]
+    Teniendo en cuenta esto hay\[8\cdot7+2\cdot8=72\text{ casos favorables}\]
+    Por lo tanto, sea $A=$ las bolas difieren en 2 o más, se tiene que\[P(A)=\frac{72}{90}=\]
+    También se podría haber pensado que\[P(A)=1-P(A^c)\]
+    En donde $A^c$ contempla los casos en donde las bolas difieren en 1. Nuevamente, hay que separar de la siguiente manera: Si saco 1 o 10, la siguiente debe ser 2 o 9 respectivamente, para el resto hay 2 opciones. Entonces,
+    \[P(A)=1-\frac{2\cdot1+8\cdot2}{90}=1-\frac{18}{90}=\frac{72}{90}\]

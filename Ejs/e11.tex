@@ -1,0 +1,38 @@
+\item Sean $A$ y $B$ dos eventos. Suponiendo que $P(A)=x,P(B)=y,P(A\cap B)=z$. Expresar cada una de las siguientes probabilidades en términos de $x,y,z$.
+    \begin{enumerate}
+        \item $P(A^c\cap B^c)$
+            \begin{align*}
+                P(A^c\cap B^c)&=P((A\cup B)^c)&&\text{De Morgan}\\
+                &=1-P(A\cup B)&&\text{Propiedad 2}\\
+                &=1-(P(A)+P(B)-P(A\cap B))&&\text{Propiedad 5}\\
+                &=1-(x+y-z)&&\text{Definición}\\
+                P(A^c\cap B^c)&=1-x-y+z
+            \end{align*}
+        \item $P(A^c\cap B)$
+            \begin{align*}
+                P(A^c\cap B)&=P((A^c\cap B) \cup\varnothing)\\
+                &=P((A^c\cap B)\cup(B\cap B^c))\\
+                &=P(B\cap(A^c\cup B^c))&&\text{Distributiva}\\
+                &=P(B\cap(A\cap B)^c)&&\text{De Morgan}\\
+                &=P(B-(A\cap B))&&\text{Def Resta}\\
+                &=P(B)-P(A\cap B)&&\text{Propiedad 3}\\
+                &=y-z
+            \end{align*}
+        \item $P(A^c\cup B^c)$
+            \begin{align*}
+                P(A^c\cup B^c)&=P((A\cap B)^c)&&\text{De Morgan}\\
+                &=1-P(A\cap B)&&\text{Propiedad 2}\\
+                &=1-z
+            \end{align*}
+        \item $P(\text{ocurra al menos uno de los dos eventos})$
+            \begin{align*}
+                &=P(A\cup B)\\
+                &=P(A)+P(B)-P(A\cap B)&&\text{Propiedad 5}\\
+                &=x+y-z
+            \end{align*}
+        \item $P(\text{ocurra a lo sumo uno de los dos eventos})$
+            \begin{align*}
+                &=1-P(A\cap B)\\
+                &=1-z
+            \end{align*}
+    \end{enumerate}

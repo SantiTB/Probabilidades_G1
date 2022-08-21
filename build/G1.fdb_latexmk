@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1661033046 "c:/Users/benit/OneDrive - ib.edu.ar/Desktop/Home/Mate/Probabilidades/Guias/Guia_1/G1.tex" "build/G1.pdf" "G1" 1661033049
+["pdflatex"] 1661045934 "c:/Users/benit/OneDrive - ib.edu.ar/Desktop/Home/Mate/Probabilidades/Guias/Guia_1/G1.tex" "build/G1.pdf" "G1" 1661045936
   "C:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/MikTex/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -143,7 +143,7 @@
   "C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1661023281 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/benit/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1648572094 10230546 143be34f4e53ccdc9790fd2b1839cef4 ""
   "Ejs/e1.tex" 1661029549 4378 0a88d6210706580227078ba64d700085 ""
-  "Ejs/e10.tex" 0 -1 0 ""
+  "Ejs/e10.tex" 1661045933 974 18ce868883823f2d3c644e166e9f47ba ""
   "Ejs/e11.tex" 0 -1 0 ""
   "Ejs/e12.tex" 0 -1 0 ""
   "Ejs/e13.tex" 0 -1 0 ""
@@ -166,7 +166,7 @@
   "Ejs/e8.tex" 1661032092 1351 14bbf51d3a9e8a62cbcb68216e5ec1a2 ""
   "Ejs/e9.tex" 1661033045 1457 6766f42a0bf43cc27304bf58d62ec63b ""
   "G1.tex" 1661029869 1297 bc44560fe8ec7bcba8c49714f5ec57b5 ""
-  "build/G1.aux" 1661033048 67 9de14bf8424e832175a22010a272fb79 "pdflatex"
+  "build/G1.aux" 1661045936 67 8748aad7b1a674d0b8e9ce072bbb8443 "pdflatex"
   "c:/Users/benit/OneDrive - ib.edu.ar/Desktop/Home/Mate/Probabilidades/Guias/Guia_1/G1.tex" 1661029869 1297 bc44560fe8ec7bcba8c49714f5ec57b5 ""
   (generated)
   "build/G1.aux"

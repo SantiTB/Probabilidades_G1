@@ -1,0 +1,7 @@
+\item Dados dos eventos $A$ y $B$, mostrar que la probabilidad de que ocurran exactamente uno de ellos es $P(A)+P(B)-2P(A\cap B)$\e\\
+    Para que ocurra solamente $A$, tiene que ocurrir $A$ y no $B$. Mientras que para que ocurra solamente $B$, debe ocurrir $B$ y no $A$. Se ve que son eventos disjuntos, entonces
+    \begin{align*}
+        P(A-B)+P(B-A)&=P(A-(A\cap B))+P(B-(B\cap A))\\
+        &=P(A)-P(A\cap B)+P(B)-P(A\cap B)&&A\cap B\subset A,\quad A\cap B\subset B\\
+        &=P(A)+P(B)-2P(A\cap B)
+    \end{align*}

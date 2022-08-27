@@ -1,0 +1,9 @@
+\item Un sistema de control está formado por 10 componentes. La falla de cualquiera de ellos provoca la del sistema. Se sabe que la probabilidad de falla de cada componente es $<0.0002$. Probar que la probabilidad de que el sistema funcione es $>0.998$.\e\\
+    $F=$"El sistema funciona"\\
+    Se sabe que\[P(F)=1-P(F^c)=1-P(\text{el sistema no funciona})\]
+    Para que el sistema no funcione, debe fallar por lo menos un componente, entonces si $A_i=$"el componente $i$ falla", tenemos que
+    \[P(F)=1-P\left(\bigcup\limits_{i=1}^{10}A_i\right)\]
+    Si suponemos que las fallas son independientes entre si:
+    \[P(F)=1-\sum\limits_{i=1}^{10}P(A_i)\]
+    Como $P(A_i)<0.0002\to-P(A_i)>0.0002$, por lo tanto
+    \[P(F)>1-10\cdot0.0002\to P(F)>0.998\]

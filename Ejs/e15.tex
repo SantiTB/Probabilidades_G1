@@ -1,0 +1,10 @@
+\item Supongamos que tres cartas numeradas 1,2,3, son alineadas al azar. Sean los eventos $A=$"la carta 1 aparece en la primera posición" y $B=$"la carta 2 aparece en la segunda posición"
+    \begin{enumerate}
+        \item Calcular $P(A)$ y $P(B)$.
+            \[\Omega=\{123,132,213,231,312,321\}\]
+            Para $A$ la carta 1 debe estar en la posición 1, mientras que las otras no importan, con lo cual\[A=\{123,132\}\]
+            Para $B$ pasa algo similar, la carta debe estar en la posición 2 mientras que el resto no interesa \[B=\{123,321\}\]
+            Para saber las probabilidades hago casos favorables sobre casos totales\[P(A)=\frac{\#A}{\#\Omega}=\frac{2}{6}\qquad P(B)=\frac{\#B}{\#\Omega}=\frac{2}{6}\]
+        \item ¿Cuál es la probabilidad de que haya al menos una coincidencia entre los números de las cartas y las posiciones que ocupan?
+            \[P(\text{al menos 1 coincidencia})=\frac{\#\{123,132,321,213\}}{\#\Omega}=\frac{4}{6}\]
+    \end{enumerate}

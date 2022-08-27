@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  27 AUG 2022 15:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.3.29)  27 AUG 2022 17:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -530,14 +530,42 @@ File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \tikz@expandcount=\count313
  (C:\MikTex\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (C:\MikTex\tex/generic/babel\babel.sty
+))) (C:\MikTex\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/02/07 v1.28a mathematical typesetting tools
+ (C:\MikTex\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count314
+\calc@Bcount=\count315
+\calc@Adimen=\dimen273
+\calc@Bdimen=\dimen274
+\calc@Askip=\skip124
+\calc@Bskip=\skip125
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count316
+\calc@Cskip=\skip126
+) (C:\MikTex\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count317
+\l_MT_multwidth_dim=\dimen275
+\origjot=\skip127
+\l_MT_shortvdotswithinadjustabove_dim=\dimen276
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen277
+\l_MT_above_intertext_sep=\dimen278
+\l_MT_below_intertext_sep=\dimen279
+\l_MT_above_shortintertext_sep=\dimen280
+\l_MT_below_shortintertext_sep=\dimen281
+\xmathstrut@box=\box114
+\xmathstrut@dim=\dimen282
+) (C:\MikTex\tex/generic/babel\babel.sty
 Package: babel 2022/02/26 3.73 The Babel package
-\babel@savecnt=\count314
-\U@D=\dimen273
+\babel@savecnt=\count318
+\U@D=\dimen283
 \l@unhyphenated=\language79
  (C:\MikTex\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
-\bbl@dirlevel=\count315
+\bbl@dirlevel=\count319
 
 *************************************
 * Local config file bblopts.cfg used
@@ -554,12 +582,12 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
 )) (C:\MikTex\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count316
-\csq@gtype=\count317
-\csq@glevel=\count318
-\csq@qlevel=\count319
-\csq@maxlvl=\count320
-\csq@tshold=\count321
+\csq@reset=\count320
+\csq@gtype=\count321
+\csq@glevel=\count322
+\csq@qlevel=\count323
+\csq@maxlvl=\count324
+\csq@tshold=\count325
 \csq@ltx@everypar=\toks41
  (C:\MikTex\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -578,20 +606,20 @@ Package csquotes Info: ... found 'babel' package.
  (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_1\build\G1.aux)
 \openout1 = `G1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -629,16 +657,16 @@ LaTeX Font Info:    ... okay on input line 25.
 
 (C:\MikTex\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen274
-\scratchbox=\box114
-\nofMPsegments=\count323
-\nofMParguments=\count324
+\scratchcounter=\count326
+\scratchdimen=\dimen284
+\scratchbox=\box115
+\nofMPsegments=\count327
+\nofMParguments=\count328
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen275
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen285
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks43
 ) (C:\MikTex\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -652,12 +680,12 @@ Package grfext Info: Graphics extension search list:
  (C:\MikTex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package csquotes Info: Making character " active on input line 25.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+Package csquotes Info: Making character " active on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
  (C:\MikTex\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
  (C:\MikTex\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (Ejs/e1.tex [1
@@ -669,19 +697,19 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 3.
- [10]) (Ejs/e17.tex) (Ejs/e18.tex) (Ejs/e19.tex) (Ejs/e20.tex) (Ejs/e21.tex) (Ejs/e22.tex) (Ejs/e23.tex) [11] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_1\build\G1.aux) ) 
+ [10]) (Ejs/e17.tex) (Ejs/e18.tex [11] [12]) (Ejs/e19.tex) (Ejs/e20.tex) (Ejs/e21.tex) (Ejs/e22.tex) (Ejs/e23.tex) [13] (c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_1\build\G1.aux) ) 
 Here is how much of TeX's memory you used:
- 17464 strings out of 478582
- 339634 string characters out of 2860759
- 658113 words of memory out of 3000000
- 35248 multiletter control sequences out of 15000+600000
+ 18065 strings out of 478582
+ 350809 string characters out of 2860759
+ 673710 words of memory out of 3000000
+ 35839 multiletter control sequences out of 15000+600000
  476248 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,80p,567b,910s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_1\build\G1.pdf" (11 pages, 167470 bytes).
+ 84i,11n,80p,567b,930s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/MikTex/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/MikTex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/MikTex/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "c:\Users\benit\OneDrive - ib.edu.ar\Desktop\Home\Mate\Probabilidades\Guias\Guia_1\build\G1.pdf" (13 pages, 191838 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

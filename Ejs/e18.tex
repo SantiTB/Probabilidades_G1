@@ -1,0 +1,63 @@
+\item Sean $E_1,\dots,E_n$ $n\geq2$, eventos cualesquiera de $S$.
+    \begin{enumerate}
+        \item Probar $P\left(\bigcup\limits_{i=1}^n E_i\right)\leq \sum\limits_{i=1}^nP(E_i)$\e\\
+            Se define
+            \begin{align*}
+                B_1&=E_1\\
+                B_2&=E_2-E_1\\
+                B_3&=E_3-(E_1\cup E_2)\\
+                \vdots\\
+                B_n&=E_n-\left(\bigcup_{i=1}^{n-1}E_i\right)
+            \end{align*}
+            Sean $B_k,B_m, k>m$. Entonces $B_k=E_k-\left(\bigcup\limits_{i=1}^{k-1}E_i\right), B_m=E_m-\left(\bigcup\limits_{i=1}^{m-1}E_i\right)$
+            \begin{align*}
+                B_k\cap B_m&=E_k-\left(\bigcup_{i=1}^{k-1}E_i\right)\cap E_m-\left(\bigcup_{i=1}^{m-1}E_i\right)&&\text{Def}\\
+                &=E_k\cap\left(\bigcup_{i=1}^{k-1}E_i\right)^c\cap E_m\cap\left(\bigcup_{i=1}^{m-1}E_i\right)^c&&\text{Resta}\\
+                &=E_k\cap\left(\bigcap_{i=1}^{k-1}E_i^c\right)\cap E_m\cap\left(\bigcap_{i=1}^{m-1}E_i^c\right)&&\text{De Morgan}\\
+                &=E_k\cap\left(\bigcap_{i=1}^{m-1}E_i^c\right)\cap\left(\bigcap_{i=m}^{k-1}E_i^c\right)\cap E_m\cap\left(\bigcap_{i=1}^{m-1}E_i^c\right)&&k>m\\
+                &=E_k\cap\left(\bigcap_{i=1}^{m-1}E_i^c\right)\cap E_m^c\cap\left(\bigcap_{i=m+1}^{k-1}E_i^c\right)\cap E_m\cap\left(\bigcap_{i=1}^{m-1}E_i^c\right)\\
+                &=\varnothing&&E_m^c\cap E_m\cap A=\varnothing\quad \forall A
+            \end{align*}
+            Si $m>k$, se pueden invertir los lugares y se llega al mismo resultado. Como consecuencia:
+            \begin{equation}
+                B_k\cap B_m=\varnothing\qquad\forall k\neq m
+            \end{equation}
+            Es decir, $B_k$ y $B_m$ son eventos independientes. Por otra parte, dado un $n$ arbitrario
+            \[
+                B_n=E_n-\left(\bigcup_{i=1}^{n-1}E_i\right)=E_n\cap\left(\bigcup_{i=1}^{n-1}E_i\right)^c\subseteq E_n
+            \]
+            \begin{equation}
+                P(B_n)\leq P(E_n)
+            \end{equation}
+            Además, vemos que si $n=2$
+            \begin{align*}
+                \left(\bigcup_{i=1}^2 B_i\right)&=E_1\cup E_2-E_1\\
+                &=E_1\cup E_2\cap E_1^c&&\text{Resta}\\
+                &=(E_1\cup E_2)\cap(E_1\cup E_1^c)&&\text{Distributiva}\\
+                &=(E_1\cup E_2)\cap\Omega\\
+                &=E_1\cup E_2&&\text{Intersección con el universo}\\
+                &=\left(\bigcup_{i=1}^2 E_i\right)
+            \end{align*}
+            Suponemos que funciona para un $n$ arbitrario y comprobamos para $n+1$
+            \begin{align*}
+                \bigcup_{i=1}^{n+1} B_i&=\left(\bigcup_{i=1}^{n} B_i\right)\cup B_{n+1}\\
+                &=\left(\bigcup_{i=1}^{n} E_i\right)\cup B_{n+1}&&\text{Hipótesis Inductiva}\\
+                &=\left(\bigcup_{i=1}^{n} E_i\right)\cup E_{n+1}-\left(\bigcup_{i=1}^{n} E_i\right)&&\text{Def }B_{n+1}\\
+                &=\left(\bigcup_{i=1}^{n} E_i\right)\cup \left[E_{n+1}\cap\left(\bigcup_{i=1}^{n} E_i\right)^c\right]&&\text{Resta}\\
+                &=\left[\left(\bigcup_{i=1}^{n} E_i\right)\cup E_{n+1}\right]\cap\left[\left(\bigcup_{i=1}^{n} E_i\right)\cup\left(\bigcup_{i=1}^{n} E_i\right)^c\right]&&\text{Distributiva}\\
+                &=\left(\bigcup_{i=1}^{n+1} E_i\right)\cap \left[\left(\bigcup_{i=1}^{n} E_i\right)\cup\left(\bigcap_{i=1}^{n} E_i^c\right)\right]&&\text{De Morgan}\\
+                &=\left(\bigcup_{i=1}^{n+1} E_i\right)\cap\left[\left(\left(\bigcup_{i=1}^{n} E_i\right)\cup E_1^c\right)\cap\dots\cap\left(\left(\bigcup_{i=1}^{n} E_i\right)\right)\cup E_n^c\right]&&\text{Distributiva}\\
+                &=\left(\bigcup_{i=1}^{n+1} E_i\right)\cap\left[\Omega\cap\dots\cap\Omega\right]&&\text{En el término }j:E_j\cup E_j^c=\Omega\\
+                &=\bigcup_{i=1}^{n+1} E_i&&\text{Intersección universo}
+            \end{align*}
+            Por lo tanto
+            \begin{equation}
+                \bigcup_{i=1}^{n} E_i=\bigcup_{i=1}^{n} B_i\qquad\forall n
+            \end{equation}
+            Con esto podemos ver que
+            \begin{align*}
+                P\left(\bigcup\limits_{i=1}^n E_i\right)&=P\left(\bigcup\limits_{i=1}^n B_i\right)&&\text{Por 3}\\
+                &=\sum_{i=1}^nP(B_i)&&\text{Por 1}\\
+                &\leq \sum\limits_{i=1}^nP(E_i)&&\text{Por 2}
+            \end{align*}
+    \end{enumerate}

@@ -751,6 +751,7 @@ INPUT .\Ejs\e14.tex
 INPUT Ejs\e14.tex
 INPUT .\Ejs\e14.tex
 INPUT Ejs\e14.tex
+INPUT C:\MikTex\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\Ejs\e15.tex
 INPUT Ejs\e15.tex
 INPUT .\Ejs\e15.tex
@@ -806,5 +807,7 @@ INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
+INPUT C:\MikTex\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\MikTex\fonts\type1\public\amsfonts\symbols\msbm10.pfb

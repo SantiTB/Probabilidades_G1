@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1661633318 "c:/Users/benit/OneDrive - ib.edu.ar/Desktop/Home/Mate/Probabilidades/Guias/Guia_1/G1.tex" "build/G1.pdf" "G1" 1661633321
+["pdflatex"] 1661694283 "c:/Users/benit/OneDrive - ib.edu.ar/Desktop/Home/Mate/Probabilidades/Guias/Guia_1/G1.tex" "build/G1.pdf" "G1" 1661694286
   "C:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/MikTex/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/MikTex/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -158,7 +158,7 @@
   "C:/MikTex/tex/latex/zref/zref-base.sty" 1650051284 20785 71a3d72ab517959a6979c27e6176bec1 ""
   "C:/Users/benit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1661619459 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/benit/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1648572094 10230546 143be34f4e53ccdc9790fd2b1839cef4 ""
-  "Ejs/e1.tex" 1661029549 4378 0a88d6210706580227078ba64d700085 ""
+  "Ejs/e1.tex" 1661691779 5155 ded10df1d2f6a82e3f639f0e3fce9a75 ""
   "Ejs/e10.tex" 1661045933 974 18ce868883823f2d3c644e166e9f47ba ""
   "Ejs/e11.tex" 1661048284 1668 a082827f10d5e1e2178bd4deae6f29d2 ""
   "Ejs/e12.tex" 1661612518 15637 51a6321e3fd59182a389d31123b7b203 ""
@@ -175,14 +175,14 @@
   "Ejs/e22.tex" 1661633123 410 dfdb77288fa6dc7ad0113d1c7e7d1e3e ""
   "Ejs/e23.tex" 1661633317 298 49a7da9e68e0e27693c7042823ecdd55 ""
   "Ejs/e3.tex" 1661009472 545 3515a6ed5488f410c0b9e279d8d8113f ""
-  "Ejs/e4.tex" 1661021481 943 da96324aeb1654eb71005cbc10fe7d76 ""
-  "Ejs/e5.tex" 1661022608 1328 01ae39c03408380a03a86e0356cf69f4 ""
+  "Ejs/e4.tex" 1661692049 941 c79f2c295265b498ea533b6fca9abd9b ""
+  "Ejs/e5.tex" 1661694281 7332 4587745179828370bc6c7daf005d4863 ""
   "Ejs/e6.tex" 1661027278 2202 2d1a30bdd9c9fb45600d7d3f4410fc5b ""
   "Ejs/e7.tex" 1661030618 517 fee1a9f7a74b033fe7ad7547354d793a ""
   "Ejs/e8.tex" 1661032092 1351 14bbf51d3a9e8a62cbcb68216e5ec1a2 ""
   "Ejs/e9.tex" 1661033045 1457 6766f42a0bf43cc27304bf58d62ec63b ""
   "G1.tex" 1661624433 1426 6264c5f200c82148341923a72efa3134 ""
-  "build/G1.aux" 1661633321 148 22c9c4cbc5026849924b07af4775cd6b "pdflatex"
+  "build/G1.aux" 1661694286 148 4303483ace7a83e1838453c9145adc45 "pdflatex"
   "c:/Users/benit/OneDrive - ib.edu.ar/Desktop/Home/Mate/Probabilidades/Guias/Guia_1/G1.tex" 1661624433 1426 6264c5f200c82148341923a72efa3134 ""
   (generated)
   "build/G1.aux"

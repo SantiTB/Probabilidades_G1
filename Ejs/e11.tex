@@ -3,8 +3,8 @@
         \item $P(A^c\cap B^c)$
             \begin{align*}
                 P(A^c\cap B^c)&=P((A\cup B)^c)&&\text{De Morgan}\\
-                &=1-P(A\cup B)&&\text{Propiedad 2}\\
-                &=1-(P(A)+P(B)-P(A\cap B))&&\text{Propiedad 5}\\
+                &=1-P(A\cup B)\\
+                &=1-(P(A)+P(B)-P(A\cap B))&&\text{Inclusión-exclusión}\\
                 &=1-(x+y-z)&&\text{Definición}\\
                 P(A^c\cap B^c)&=1-x-y+z
             \end{align*}
@@ -15,13 +15,13 @@
                 &=P(B\cap(A^c\cup B^c))&&\text{Distributiva}\\
                 &=P(B\cap(A\cap B)^c)&&\text{De Morgan}\\
                 &=P(B-(A\cap B))&&\text{Def Resta}\\
-                &=P(B)-P(A\cap B)&&\text{Propiedad 3}\\
+                &=P(B)-P(A\cap B)&&A\cap B\subseteq B\\
                 &=y-z
             \end{align*}
         \item $P(A^c\cup B^c)$
             \begin{align*}
                 P(A^c\cup B^c)&=P((A\cap B)^c)&&\text{De Morgan}\\
-                &=1-P(A\cap B)&&\text{Propiedad 2}\\
+                &=1-P(A\cap B)\\
                 &=1-z
             \end{align*}
         \item $P(\text{ocurra al menos uno de los dos eventos})$
